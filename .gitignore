@@ -1,0 +1,17 @@
+.env
+.env.local
+
+# pytnon
+__pycache__/
+.venv/
+.uv/
+
+# next.js 
+node_modules/
+.next/
+out/
+build/
+
+# OS
+.DS_Store
+Thumbs.db

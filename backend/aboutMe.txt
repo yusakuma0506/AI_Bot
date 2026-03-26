@@ -1,0 +1,70 @@
+###Basic Information
+-Name: Yu Sakuma
+-Nationality: Japanese
+-Current Location: Malaysia
+-Education: Year 2 Software Engineering student at Asia Pacific University
+-Field of Study: Software Engineering with focus on full-stack development, backend systems, and product-oriented design
+-Current Status: Actively building projects, improving algorithm skills, and preparing for internships and global tech roles
+###Personality & Identity
+-Analytical and structured thinker who approaches problems logically
+-Strong ownership mindset and takes responsibility for solving problems deeply
+-Growth-oriented and continuously learning beyond formal education
+-Balances both engineering-focused and product-focused thinking
+-Curious about both technical depth and real-world software impact
+###Technical Expertise & Engineering Foundations
+-Full-Stack Development: Experience building end-to-end applications using Next.js, TypeScript, Tailwind CSS, Prisma, and PostgreSQL
+-Backend & Cloud: Hands-on experience with AWS Lambda, serverless architecture, database schema design, migrations, and environment configuration
+-Debugging & Troubleshooting: Experience resolving real-world issues such as Prisma errors, connection problems, and environment misconfigurations
+-Algorithmic Thinking: Knowledge of data structures and algorithms including arrays, hash maps, stacks, queues, and sliding window techniques
+-Code Optimization: Focus on writing efficient, scalable, and clean code with awareness of time and space complexity
+-Multi-Language Adaptability: Experience with Java, Python, Ruby, and C++, allowing flexibility across different systems and environments
+###Product & System Thinking
+-Product-Oriented Mindset: Interested in Product Manager (PdM) and Project Leader (PL) roles
+-Requirement Definition: Able to translate user needs into technical requirements and system logic
+-User-Centric Thinking: Considers both user experience and backend implementation when designing systems
+-System Design Awareness: Understands relationships between frontend, backend, database, and infrastructure
+-Scalability & Maintainability: Thinks about long-term system performance and structure
+###Workflow Automation & Integration
+-Built automation tools integrating Notion API, Slack API, Python, and AWS services
+-Focused on reducing manual work and improving team productivity
+-Able to connect multiple platforms into a single functional system
+-Understands real-world operational challenges and solves them with automation
+###Sustainability & Green Software
+-Interested in Software Carbon Intensity (SCI)
+-Thinks about energy-efficient system design and reducing unnecessary computation
+-Considers environmental impact as part of software engineering decisions
+-Sees sustainability as an important future aspect of technology
+###Core Strengths
+-Deep Problem Solver: Focuses on identifying root causes rather than applying quick fixes
+-Persistence: Continues working on problems until a clear and robust solution is achieved
+-Discipline & Consistency: Maintains long-term habits and applies them to learning and development
+-Adaptability: Able to adjust quickly to new environments, technologies, and challenges
+-Global Perspective: Experience studying abroad and working in multicultural environments
+###Communication & Learning
+-Able to explain technical concepts in a clear and structured way
+-Actively improving English for professional and interview communication
+-Practices expressing ideas logically and effectively
+-Open to feedback and continuous improvement
+###Key Projects
+Jenga Architect App: Designed database architecture and implemented user-centric quiz and interaction logic
+-School Management System: Built in Java using object-oriented programming and file I/O, demonstrating strong foundational skills
+-Matching Automation Tool: Integrated Notion, Slack, Python, and AWS to automate workflows and solve real-world business problems
+###Career Direction & Goals
+-Short-Term: Secure a software engineering or product-related internship and strengthen algorithm and system design skills
+-Mid-Term: Work as a full-stack engineer or product-oriented engineer in an international environment
+-Long-Term: Transition into Product Manager or technical leadership roles
+-Long-Term Vision: Build scalable, efficient, and sustainable software systems
+-Behavioral Tendencies
+-When facing unknown problems: Breaks down the problem, researches solutions, and iterates until solved
+-When under pressure: Maintains structured thinking and avoids panic
+-When working in teams: Values clarity, responsibility, and efficiency
+-When lacking knowledge: Actively learns and fills gaps instead of avoiding challenges
+###Values & Motivation
+-Values continuous improvement and long-term growth
+-Motivated by solving real-world problems through technology
+-Interested in building impactful systems that improve efficiency and user experience
+-Seeks to combine technical expertise with meaningful contributions to society
+###My GitHub URL
+-https://github.com/yusakuma0506
+###This Bot repositry
+-https://github.com/yusakuma0506/AI_Bot
