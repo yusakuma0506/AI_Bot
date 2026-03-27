@@ -31,7 +31,7 @@ export default function Home (){
     setLoading(true)
 
     try{
-      const res = await fetch(`http://localhost:8000/ask?question=${encodeURIComponent(currentText)}`);
+      const res = await fetch(`https://ai-bot-5oom.onrender.com/ask?question=${encodeURIComponent(currentText)}`);
       const data = await res.json();
 
       const aiMessage: ChatMessage = {role: "ai", content: data.answer}
