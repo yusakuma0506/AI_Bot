@@ -18,6 +18,7 @@ jobs:
               with: 
                 python-version: '3.12'
             - name: Install dependencies
+              working-directory: ./backend
               run: |
                 pip install -r requirements.txt
 
@@ -33,6 +34,8 @@ jobs:
                 node-version: '20'
                 cache: 'npm'
             - name: Install Node dependencies
+              working-directory: ./frontend
               run: npm install
             - name: Build React App
+              working-directory: ./frontend
               run: npm run build
