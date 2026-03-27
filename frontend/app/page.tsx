@@ -1,5 +1,5 @@
 "use client";
-import {useState} from 'react';
+import {useState, useRef, useEffect} from 'react';
 
 interface ChatMessage{
   role: string;
@@ -10,29 +10,48 @@ export default function Home (){
   const [text, setText] = useState<string>("");
   const [chat, setChat] = useState<ChatMessage[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
+  const scrollEndRef = useRef<HTMLDivElement>(null);
 
+  useEffect(()=>{
+    scrollEndRef.current?.scrollIntoView({behavior: "smooth"})
+  }, [chat]);
   const isInvalid = text.trim().length ===0 || loading;
     
   const handleAsk = async ()=>{
     if (isInvalid) {
       return;
     }
+    const unlockUttr = new SpeechSynthesisUtterance(" ");
+    window.speechSynthesis.speak(unlockUttr);
     
-    const userMessage: ChatMessage = {role: "user", content: text};
-    setChat((prev) => [...prev, userMessage]);
     const currentText = text;
+    const userMessage: ChatMessage = {role: "user", content: currentText};
+    setChat((prev) => [...prev, userMessage]);
     setText("");
     setLoading(true)
 
     try{
       const res = await fetch(`http://localhost:8000/ask?question=${encodeURIComponent(currentText)}`);
       const data = await res.json();
+
       const aiMessage: ChatMessage = {role: "ai", content: data.answer}
       setChat((prev) => [...prev, aiMessage]);
 
-      const uttr = new SpeechSynthesisUtterance(data.answer);
-      uttr.lang = "en";
-      window.speechSynthesis.speak(uttr);
+      if(data.answer){
+        const uttr = new SpeechSynthesisUtterance(data.answer);
+        const isJapanese = /[\u3040-\u309F\u30A0-\u30FF]/.test(data.answer);
+        if(isJapanese){
+          uttr.lang = "ja-JP";
+          uttr.pitch = 1.0;
+          uttr.rate = 2.0;
+        }else{
+          uttr.lang = "en-US";
+          uttr.pitch = 1.6;
+          uttr.rate =0.7;
+        }
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(uttr);
+      }
 
     }catch(e){
       setChat((prev)=>[...prev, {role: "ai", content:"Sorry, something went wrong. I couldn't contact with Backend"}])
@@ -62,6 +81,7 @@ export default function Home (){
             </span>
           </div>
         ))}
+        <div ref={scrollEndRef} />
         {loading && 
           <div 
             className="flex items-center gap-2 text-slate-400 italic text-sm animate-pulse ml-2">
@@ -75,7 +95,7 @@ export default function Home (){
           rows={3}
           value={text} 
           onChange={(e) => setText(e.target.value)}
-          placeholder="TYPE SOMETHING SICK..."
+          placeholder="TYPE SOMETHING..."
           className='flex-1 bg-transparent px-2 py-1 outline-none placeholder:text-slate-600 font-bold resize-none overflow-y-auto max-h-32 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden'
           onKeyDown={(e) => {
             if(e.key === "Enter" && !e.shiftKey && !isInvalid) {
