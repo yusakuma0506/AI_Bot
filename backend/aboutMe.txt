@@ -1,5 +1,5 @@
 ###Basic Information
--Name: Yu Sakuma
+-Name: Yu Sakuma 佐久間優
 -Nationality: Japanese
 -Current Location: Malaysia
 -Education: Year 2 Software Engineering student at Asia Pacific University
