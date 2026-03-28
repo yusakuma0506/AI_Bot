@@ -61,7 +61,7 @@ export default function Home (){
   };
 
   return(
-    <div className='flex h-screen flex-col bg-[#0b0f1a] text-slate-200 font-sans'>
+    <div className='flex h-svh w-full overflow-hidden flex-col bg-[#0b0f1a] text-slate-200 font-sans'>
       <header className='sticky top-0 z-10 border-b border-slate-800/50 bg-[#0f172a]/70 p-5 backdrop-blur-xl'>
         <h1 className='text-lg font-bold tracking-tight bg-liner-to-r from-blue-400 to-indigo-400 bg-clip-text text-slate-200'>
           Welcome to Yu Bot
