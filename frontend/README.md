@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Yu Bot - Frontend (Next.js)
 
-## Getting Started
+[🇺🇸 English](#english) | [🇯🇵 日本語](#japanese)
 
-First, run the development server:
+---
+
+<a name="english"></a>
+## 🇺🇸 Overview
+An interactive AI interface built with Next.js (App Router), focusing on real-time chat experiences and multilingual text-to-speech.
+
+### 🛠️ Tech Stack
+- **Framework:** Next.js 14+ (App Router)
+- **State Management:** React Hooks
+- **Styling:** Tailwind CSS
+
+### ✨ Key Features
+- **Auto-Scroll Tracking:** Seamlessly scrolls to the latest message using `useRef` and `useEffect`.
+- **Intelligent TTS Switcher:** Custom logic to switch between Japanese and English voice engines based on content analysis.
+
+---
+
+<a name="japanese"></a>
+## 🇯🇵 概要
+Next.js (App Router) を使用した対話型AIインターフェースです。リアルタイムなチャット体験と、多言語音声合成にこだわりました。
+
+### 🛠️ 技術スタック
+- **Framework:** Next.js 14+ (App Router)
+- **Styling:** Tailwind CSS
+- **State Management:** React Hooks (useState, useEffect, useRef)
+- **API Communication:** Fetch API (FastAPI backend)
+- **Speech:** Web Speech API (Custom logic)
+
+### ✨ こだわりポイント
+- **自動スクロール追従:** `useRef` と `useEffect` を活用し、新しいメッセージが追加されるたびに最下部へスムーズにスクロール。ユーザーの手動操作を減らしました。
+- **インテリジェントTTS:** 正規表現により言語を自動判定し、日本語・英語で適切なボイスエンジンを切り替えます。
+- **スリープ復帰待機:** APIリクエスト中にローディング状態を視覚的に表示し、ユーザー体験を損なわない設計にしました。
+
+---
+
 
 ```bash
 npm run dev
@@ -13,24 +47,3 @@ pnpm dev
 # or
 bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
