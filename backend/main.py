@@ -1,8 +1,9 @@
 import os
+import google.generativeai as genai
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import google.generativeai as genai
+
 
 load_dotenv(override =True)
 genai.configure(api_key = os.getenv("GEMINI_API_KEY"))
@@ -21,7 +22,7 @@ app.add_middleware(
 async def ask(question:str):
     try:
         with open('aboutMe.txt', 'r', encoding="utf-8") as f:
-            my_context = f.read()
+            about_me = f.read()
         model = genai.GenerativeModel(
             'models/gemini-2.5-flash',
             system_instruction= f""" you are Yu Sakuma 
@@ -29,7 +30,7 @@ async def ask(question:str):
                                 basically, you answer briefly
                                 except for user ask you detail.
                                 please answer following the next: 
-                                {my_context}"""
+                                {about_me}"""
         )
         response = model.generate_content(question)
         return{"answer": response.text}

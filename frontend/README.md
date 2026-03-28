@@ -9,7 +9,7 @@
 An interactive AI interface built with Next.js (App Router), focusing on real-time chat experiences and multilingual text-to-speech.
 
 ### 🛠️ Tech Stack
-- **Framework:** Next.js 14+ (App Router)
+- **Framework:** Next.js 16+ (App Router)
 - **State Management:** React Hooks
 - **Styling:** Tailwind CSS
 
@@ -24,7 +24,7 @@ An interactive AI interface built with Next.js (App Router), focusing on real-ti
 Next.js (App Router) を使用した対話型AIインターフェースです。リアルタイムなチャット体験と、多言語音声合成にこだわりました。
 
 ### 🛠️ 技術スタック
-- **Framework:** Next.js 14+ (App Router)
+- **Framework:** Next.js 16+ (App Router)
 - **Styling:** Tailwind CSS
 - **State Management:** React Hooks (useState, useEffect, useRef)
 - **API Communication:** Fetch API (FastAPI backend)
@@ -40,10 +40,4 @@ Next.js (App Router) を使用した対話型AIインターフェースです。
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```

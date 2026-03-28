@@ -1,4 +1,4 @@
-# 🤖 Yu Bot - Interactive AI Clone
+# 🤖 Another Me - Interactive AI Clone
 [🇺🇸 English](#english) | [🇯🇵 日本語](#japanese) 
 
 ---
@@ -12,9 +12,9 @@ Yu Bot is a full-stack AI application featuring my **"Digital Clone,"** trained 
 * **Pre-Interview Experience:** To provide recruiters with an interactive portfolio where they can explore my experiences and personality before an actual interview.
 
 ### 🛠️ Tech Stack
-* **Frontend:** Next.js (React), Tailwind CSS
+* **Frontend:** Next.js (Typescript), Tailwind CSS
 * **Backend:** FastAPI (Python)
-* **AI:** Gemini 1.5 Flash API
+* **AI:** Gemini 2.5 Flash API
 * **Infrastructure:** Vercel (Frontend), Render (Backend)
 * **CI/CD:** GitHub Actions
 
@@ -37,9 +37,9 @@ Yu Botは、私自身の経歴やスキルセットを学習させた**「デジ
 * **プレ・インタビュー:** 採用担当者様が、実際の面接の前に私の経験や考え方をカジュアルに知ることができるインタラクティブなポートフォリオを提供したかったため。
 
 ### 🛠️ 技術スタック
-* **Frontend:** Next.js (React), Tailwind CSS
+* **Frontend:** Next.js (Typescript), Tailwind CSS
 * **Backend:** FastAPI (Python)
-* **AI:** Gemini 1.5 Flash API
+* **AI:** Gemini 2.5 Flash API
 * **Infrastructure:** Vercel (Frontend), Render (Backend)
 * **CI/CD:** GitHub Actions (Automated Build & Testing)
 

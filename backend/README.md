@@ -10,7 +10,7 @@ The "brain" of Yu Bot, built with FastAPI. It processes requests and interacts w
 
 ### 🛠️ Tech Stack
 - **Framework:** FastAPI (Python)
-- **AI Engine:** Gemini 1.5 Flash
+- **AI Engine:** Gemini 2.5 Flash
 - **Tools:** uvicorn, python-dotenv
 
 ### ✨ Technical Highlights
@@ -26,7 +26,7 @@ FastAPIを使用した、Yu Botの頭脳となるAPIサーバーです。Gemini 
 ### 🛠️ 技術スタック
 - **Language:** Python 3.12
 - **Framework:** FastAPI
-- **AI Engine:** Google Gemini 1.5 Flash API
+- **AI Engine:** Google Gemini 2.5 Flash API
 - **Dependency:** uvicorn, python-dotenv, google-generativeai
 
 ### ✨ こだわりポイント
