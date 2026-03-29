@@ -24,24 +24,30 @@ def health_check():
 
 
 @app.get("/ask")
-async def ask(question:str):
+async def ask(question:str, lang: str):
     try:
         with open('aboutMe.txt', 'r', encoding="utf-8") as f:
             about_me = f.read()
+            
+        lang_instruction= "Please answer in Japanese" if lang == 'jp' else "Please answer in English"
         model = genai.GenerativeModel(
             'models/gemini-2.5-flash',
-            system_instruction= f""" you are Yu Sakuma 
-                                and in an interview for new job.
-                                basically, you answer briefly
-                                except for user ask you detail.
-                                please answer following the next: 
-                                {about_me}"""
+            system_instruction= f""" 
+                                -you are Yu Sakuma 
+                                 and in an interview for new job.
+                                -basically, you answer briefly
+                                 except for user ask you detail.
+                                -{lang_instruction} following the next: 
+                                 {about_me}.
+                                -if the answer will be long, or need to use bullet points,
+                                 you have to make them look good with changin the line
+                                -please make important word **bold** """
         )
         response = model.generate_content(question)
         return{"answer": response.text}
     except Exception as e:
-        return {
-            "answer": """I'm sorry, something went wrong.
-                        I think I'm tired from thinking too much...
-                        Let me take a break please"""
-        }
+        if lang == "jp":
+            err = "申し訳ありません。考えすぎて少し疲れました。少し休ませてください。(APIのfree枠上限に達しました)"
+        else:
+            err = "I'm sorry, I think I'm tired from thinking too much. Let me take a break. (API free slot limit has been reached)"
+        return{"answer": err}

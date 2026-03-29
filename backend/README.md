@@ -1,4 +1,4 @@
-# ⚙️ Yu Bot - Backend (FastAPI)
+# ⚙️ Another Me - Backend (FastAPI)
 
 [🇺🇸 English](#english) | [🇯🇵 日本語](#japanese) 
 
@@ -9,9 +9,10 @@
 The "brain" of Yu Bot, built with FastAPI. It processes requests and interacts with the Gemini API to generate context-aware responses.
 
 ### 🛠️ Tech Stack
-- **Framework:** FastAPI (Python)
-- **AI Engine:** Gemini 2.5 Flash
-- **Tools:** uvicorn, python-dotenv
+- **Language:** Python 3.12
+- **Framework:** FastAPI
+- **AI Engine:** Google Gemini 2.5 Flash API
+- **Dependency:** uvicorn, python-dotenv, google-generativeai
 
 ### ✨ Technical Highlights
 - **Context Injection (RAG-lite):** Pre-loads developer's professional background into the system instructions to ensure factual and persona-consistent responses.

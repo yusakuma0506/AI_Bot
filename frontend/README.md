@@ -1,6 +1,6 @@
-# 🌐 Yu Bot - Frontend (Next.js)
+# 🌐 Another Me - Frontend (Next.js)
 
-[🇺🇸 English](#english) | [🇯🇵 日本語](#japanese)
+[🇺🇸 English](#english) | [🇯🇵 日本語](#japanese) | [How to run](#run)
 
 ---
 
@@ -10,8 +10,11 @@ An interactive AI interface built with Next.js (App Router), focusing on real-ti
 
 ### 🛠️ Tech Stack
 - **Framework:** Next.js 16+ (App Router)
-- **State Management:** React Hooks
+- **State Management:** React Hooks (useState, useEffect, useRef)
 - **Styling:** Tailwind CSS
+- **API Communication:** Fetch API (FastAPI backend)
+- **Speech:** Web Speech API (Custom logic)
+- **Server:** Render for backend, Vercel for frontend
 
 ### ✨ Key Features
 - **Auto-Scroll Tracking:** Seamlessly scrolls to the latest message using `useRef` and `useEffect`.
@@ -33,11 +36,11 @@ Next.js (App Router) を使用した対話型AIインターフェースです。
 ### ✨ こだわりポイント
 - **自動スクロール追従:** `useRef` と `useEffect` を活用し、新しいメッセージが追加されるたびに最下部へスムーズにスクロール。ユーザーの手動操作を減らしました。
 - **インテリジェントTTS:** 正規表現により言語を自動判定し、日本語・英語で適切なボイスエンジンを切り替えます。
-- **スリープ復帰待機:** APIリクエスト中にローディング状態を視覚的に表示し、ユーザー体験を損なわない設計にしました。
 
 ---
 
-
+<a name="run">
+### How to run frontend
 ```bash
 npm run dev
 ```

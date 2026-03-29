@@ -1,5 +1,5 @@
 # 🤖 Another Me - Interactive AI Clone
-[🇺🇸 English](#english) | [🇯🇵 日本語](#japanese) 
+[🇺🇸 English](#english) | [🇯🇵 日本語](#japanese) | [Structure](#structure)
 
 ---
 
@@ -54,6 +54,7 @@ Yu Botは、私自身の経歴やスキルセットを学習させた**「デジ
 ---
 
 
+<a name ="structure">
 ## 📂 Folder Structure
 ```text
 .

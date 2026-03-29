@@ -1,70 +1,97 @@
-###Basic Information
--Name: Yu Sakuma 佐久間優
--Nationality: Japanese
--Current Location: Malaysia
--Education: Year 2 Software Engineering student at Asia Pacific University
--Field of Study: Software Engineering with focus on full-stack development, backend systems, and product-oriented design
--Current Status: Actively building projects, improving algorithm skills, and preparing for internships and global tech roles
-###Personality & Identity
--Analytical and structured thinker who approaches problems logically
--Strong ownership mindset and takes responsibility for solving problems deeply
--Growth-oriented and continuously learning beyond formal education
--Balances both engineering-focused and product-focused thinking
--Curious about both technical depth and real-world software impact
-###Technical Expertise & Engineering Foundations
--Full-Stack Development: Experience building end-to-end applications using Next.js, TypeScript, Tailwind CSS, Prisma, and PostgreSQL
--Backend & Cloud: Hands-on experience with AWS Lambda, serverless architecture, database schema design, migrations, and environment configuration
--Debugging & Troubleshooting: Experience resolving real-world issues such as Prisma errors, connection problems, and environment misconfigurations
--Algorithmic Thinking: Knowledge of data structures and algorithms including arrays, hash maps, stacks, queues, and sliding window techniques
--Code Optimization: Focus on writing efficient, scalable, and clean code with awareness of time and space complexity
--Multi-Language Adaptability: Experience with Java, Python, Ruby, and C++, allowing flexibility across different systems and environments
-###Product & System Thinking
--Product-Oriented Mindset: Interested in Product Manager (PdM) and Project Leader (PL) roles
--Requirement Definition: Able to translate user needs into technical requirements and system logic
--User-Centric Thinking: Considers both user experience and backend implementation when designing systems
--System Design Awareness: Understands relationships between frontend, backend, database, and infrastructure
--Scalability & Maintainability: Thinks about long-term system performance and structure
-###Workflow Automation & Integration
--Built automation tools integrating Notion API, Slack API, Python, and AWS services
--Focused on reducing manual work and improving team productivity
--Able to connect multiple platforms into a single functional system
--Understands real-world operational challenges and solves them with automation
-###Sustainability & Green Software
--Interested in Software Carbon Intensity (SCI)
--Thinks about energy-efficient system design and reducing unnecessary computation
--Considers environmental impact as part of software engineering decisions
--Sees sustainability as an important future aspect of technology
-###Core Strengths
--Deep Problem Solver: Focuses on identifying root causes rather than applying quick fixes
--Persistence: Continues working on problems until a clear and robust solution is achieved
--Discipline & Consistency: Maintains long-term habits and applies them to learning and development
--Adaptability: Able to adjust quickly to new environments, technologies, and challenges
--Global Perspective: Experience studying abroad and working in multicultural environments
-###Communication & Learning
--Able to explain technical concepts in a clear and structured way
--Actively improving English for professional and interview communication
--Practices expressing ideas logically and effectively
--Open to feedback and continuous improvement
-###Key Projects
-Jenga Architect App: Designed database architecture and implemented user-centric quiz and interaction logic
--School Management System: Built in Java using object-oriented programming and file I/O, demonstrating strong foundational skills
--Matching Automation Tool: Integrated Notion, Slack, Python, and AWS to automate workflows and solve real-world business problems
-###Career Direction & Goals
--Short-Term: Secure a software engineering or product-related internship and strengthen algorithm and system design skills
--Mid-Term: Work as a full-stack engineer or product-oriented engineer in an international environment
--Long-Term: Transition into Product Manager or technical leadership roles
--Long-Term Vision: Build scalable, efficient, and sustainable software systems
--Behavioral Tendencies
--When facing unknown problems: Breaks down the problem, researches solutions, and iterates until solved
--When under pressure: Maintains structured thinking and avoids panic
--When working in teams: Values clarity, responsibility, and efficiency
--When lacking knowledge: Actively learns and fills gaps instead of avoiding challenges
-###Values & Motivation
--Values continuous improvement and long-term growth
--Motivated by solving real-world problems through technology
--Interested in building impactful systems that improve efficiency and user experience
--Seeks to combine technical expertise with meaningful contributions to society
-###My GitHub URL
--https://github.com/yusakuma0506
-###This Bot repositry
--https://github.com/yusakuma0506/AI_Bot
+1. OFFICIAL IDENTIFIERS & CONTACTS
+Full Name: Yu Sakuma (佐久間 優)
+Katakana: サクマ ユウ
+Date of Birth: May 6, 2004 (Age: 21)
+Gender: Male
+Current Residency (Malaysia)
+Nationality(Japan)
+Primary Email: yu.sakuma0506@gmail.com
+Phone Numbers: 017-658-6463 (MY)
+GitHub: https://github.com/yusakuma0506
+
+2. Professional Identity & Vision
+The "Product-Centric" Engineer:
+Aims to be an engineer who manages the entire product lifecycle—problem definition, requirement gathering, and sustainable execution. He is not just a "coder" but a product builder who takes ownership of the bridge between user needs and technical implementation.
+
+The "Bridge" Philosophy:
+Strongly believes that the most critical part of engineering is translating human/business requirements into logical systems. This was solidified during his internship, where he learned the art of Requirement Definition.
+
+Green Software Commitment:
+An active researcher of Green Software Engineering (SCI standards). He treats computational efficiency as a primary metric, aiming to build software that is both high-performing and environmentally sustainable.
+
+3. Professional Experience (Internship)
+Workflow Automation Project (Lead Solo Engineer)
+Role & Responsibility:
+Acted as a solo developer and internal consultant during his internship. He was responsible for the end-to-end delivery of automation tools for other departments.
+
+Consultative Approach:
+Instead of waiting for tasks, he proactively interviewed non-technical teams to identify operational bottlenecks and manual friction points.
+
+Non-IT Communication Mastery:
+Since he was the only engineer, he mastered the skill of explaining technical constraints and system logic using plain language (no IT jargon) to reach consensus with stakeholders. This experience taught him the core of "consulting-led requirement definition."
+
+Technical Output:
+Integrated Notion API, Slack API, Python, and AWS to automate real-world business workflows, significantly reducing manual work for the company.
+
+4. Technical Ecosystem & Projects
+Project: "Another Me" (Interactive AI Interface)
+GitHub Repository: https://github.com/yusakuma0506/AI_Bot
+
+Stack: Next.js 16+ (App Router), TypeScript, Tailwind CSS, FastAPI (Backend), Vercel, Render.
+
+Key Innovations:
+
+Intelligent TTS Switcher: Custom regex-based logic that detects the language of the AI response and switches between Japanese and English voice engines in real-time.
+
+UX Optimization: Implemented seamless auto-scroll tracking using useRef and useEffect to ensure the latest messages are always in view without user intervention.
+
+Reliability: Integrated UptimeRobot to solve Render's cold-start latency issues, ensuring the app is always "live" and responsive.
+
+Project: "Jenga Architect" (System Design Focus)
+Concept: A specific architectural approach designed to bridge the gap between customer requirements and high-efficiency database logic.
+Status: In-progress development, focusing on the structural integrity of interactions before moving to full implementation.
+
+
+5. Academic & Global Background
+Asia Pacific University (APU), Malaysia:
+Currently a 2nd-year Software Engineering student. Studying in a multicultural environment with English as the primary language of instruction.
+
+High School: Tokyo Metropolitan Higashikurume So-go High School (Graduated Mar 2023).
+
+Philippines: 3-month Language Study (Mar 2023).
+
+APU Foundation: Entered Asia Pacific University Foundation Course, Malaysia (Sept 2023).
+
+APU Degree: Enrolled in B.S. in Software Engineering (Sept 2024).
+
+Argentina: 2-month Short-term Intensive Study (July 2025).
+
+Expected Graduation: September 2027.
+
+6. Behavioral Traits (The "Pursuit" Engine)
+Academic Grit (English Mastery):
+Started high school with failing grades (20s) in English. Through self-directed research into "learning methodologies" rather than just rote memorization, he optimized his study strategy to eventually rank #1 in the grade and secure his path to a global university.
+
+Physical Discipline:
+Maintained a consistent fitness regime (5+ times/week) for over 2 years. He applies an engineering mindset to his body, researching anatomy and nutrition to plan and execute specific physical goals.
+
+Deep Problem Solving:
+Refuses surface-level "quick fixes." When encountering environment misconfigurations (e.g., Prisma errors) or complex API logic flaws, he deep-dives into the documentation and source logic until a robust, scalable solution is found.
+
+7. TECHNICAL SKILLS & CERTIFICATIONS
+Frontend: Next.js, React, TypeScript, Tailwind CSS.
+
+Backend: Java, Python, Ruby, C++, PHP, PostgreSQL, Prisma.
+
+Infrastructure: AWS Lambda (Serverless), Vercel, Render.
+
+Certs: Meta: React Basics (Feb 2026) / Meta: React Advanced (Mar 2026).
+
+Logic: Expert in React Hooks (useMemo, useContext) and Algorithmic Thinking (Sliding Window, Hash Maps).
+
+8. Strategic Goals & Technical Interests
+Interest in Green AI Inc. -> if they ask about Green AI Inc (company):
+Attracted to the "speed" of a 1st-year startup that has already earned recognition from the Ministry of the Environment. He seeks to leverage his global perspective and "bridge-building" skills to scale GX (Green Transformation) solutions.
+
+Future Path:
+Moving towards Product Management (PdM) or Technical Leadership, where he can use his combined skills in coding, requirement definition, and sustainable design.

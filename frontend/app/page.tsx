@@ -1,5 +1,6 @@
 "use client";
 import {useState, useRef, useEffect} from 'react';
+import ReactMarkdown from 'react-markdown';
 
 interface ChatMessage{
   role: string;
@@ -8,15 +9,23 @@ interface ChatMessage{
 
 export default function Home (){
   const [text, setText] = useState<string>("");
+  const [lang, setLang] = useState<string>('en');
   const [chat, setChat] = useState<ChatMessage[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const scrollEndRef = useRef<HTMLDivElement>(null);
 
+
+
   useEffect(()=>{
     scrollEndRef.current?.scrollIntoView({behavior: "smooth"})
   }, [chat]);
+
   const isInvalid = text.trim().length ===0 || loading;
     
+  const switchLang = ()=>{
+    setLang((prev) => prev === 'en'? 'jp' : 'en')
+  };
+
   const handleAsk = async ()=>{
     if (isInvalid) {
       return;
@@ -25,13 +34,13 @@ export default function Home (){
     window.speechSynthesis.speak(unlockUttr);
     
     const currentText = text;
-    const userMessage: ChatMessage = {role: "user", content: currentText};
+    const userMessage: ChatMessage = {role: "user", content: currentText };
     setChat((prev) => [...prev, userMessage]);
     setText("");
     setLoading(true)
 
     try{
-      const res = await fetch(`https://ai-bot-5oom.onrender.com/ask?question=${encodeURIComponent(currentText)}`);
+      const res = await fetch(`https://ai-bot-5oom.onrender.com/ask?question=${encodeURIComponent(currentText)}&lang=${lang}`);
       const data = await res.json();
 
       const aiMessage: ChatMessage = {role: "ai", content: data.answer}
@@ -43,18 +52,19 @@ export default function Home (){
         if(isJapanese){
           uttr.lang = "ja-JP";
           uttr.pitch = 1.0;
-          uttr.rate = 2.0;
+          uttr.rate = 1.4;
         }else{
           uttr.lang = "en-US";
-          uttr.pitch = 1.6;
-          uttr.rate =0.7;
+          uttr.pitch = 1.0;
+          uttr.rate = 0.8;
         }
         window.speechSynthesis.cancel();
         window.speechSynthesis.speak(uttr);
       }
 
     }catch(e){
-      setChat((prev)=>[...prev, {role: "ai", content:"Sorry, something went wrong. I couldn't contact with Backend"}])
+      const errorMessage = lang ==='en'? "Sorry, something went wrong. I couldn't contact with Backend" : "すみません、接続に失敗しました。";
+      setChat((prev)=>[...prev, {role: "ai", content:errorMessage}])
     }finally{
       setLoading(false);
     }
@@ -62,12 +72,26 @@ export default function Home (){
 
   return(
     <div className='flex h-svh w-full overflow-hidden flex-col bg-[#0b0f1a] text-slate-200 font-sans'>
-      <header className='sticky top-0 z-10 border-b border-slate-800/50 bg-[#0f172a]/70 p-5 backdrop-blur-xl'>
-        <h1 className='text-lg font-bold tracking-tight bg-liner-to-r from-blue-400 to-indigo-400 bg-clip-text text-slate-200'>
-          Welcome to Yu Bot
+      <header className='flex justify-between items-center sticky top-0 z-10 border-b border-slate-800/50 bg-[#0f172a]/70 p-5 backdrop-blur-xl'>
+        <h1 className='text-lg  font-bold tracking-tight bg-liner-to-r from-blue-400 to-indigo-400 bg-clip-text text-slate-200'>
+          Another Me
         </h1>
+        <button onClick={switchLang} className='border-b border rounded-xl p-2'>
+          {lang === 'en'? "JP/日本語": "En/English"}
+        </button>
       </header>
       <div className='flex-1 overflow-y-auto p-4 space-y-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden'>
+        {chat.length === 0 && (
+          <div className="mr-auto max-w-[85%] bg-slate-800/50 border border-slate-700/50 rounded-2xl rounded-tl-none p-4 shadow-lg">
+            <div className='text-sm leading-relaxed chat-content'>
+              <ReactMarkdown>
+                {lang === "en" 
+                  ? "Hello, Please ask me anything you want to know" 
+                  : "こんにちは、何かご質問はありますか？"}
+              </ReactMarkdown>
+            </div>
+          </div>
+        )}
         {chat.map((m,i) =>(
           <div key={i}
             className={`max-w-[85%] rounded-2xl p-4 shadow-lg ${
@@ -76,9 +100,11 @@ export default function Home (){
                 : 'mr-auto bg-slate-800/50 border border-slate-700/50 rounded-tl-none'
             }`}
           >
-            <span className='text-sm leading-relaxed'>
-              {m.content}
-            </span>
+            <div className='text-sm leading-relaxed chat-content'>
+              <ReactMarkdown>
+                {m.content}
+              </ReactMarkdown>
+            </div>
           </div>
         ))}
         <div ref={scrollEndRef} />
@@ -86,7 +112,7 @@ export default function Home (){
           <div 
             className="flex items-center gap-2 text-slate-400 italic text-sm animate-pulse ml-2">
             <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
-            Thinking...
+            {lang === "en"? "Thinking...": "考え中..."}
           </div>}
       </div>
 
@@ -95,7 +121,7 @@ export default function Home (){
           rows={3}
           value={text} 
           onChange={(e) => setText(e.target.value)}
-          placeholder="TYPE SOMETHING..."
+          placeholder={lang === "en" ?"TYPE SOMETHING...": "入力してください"}
           className='flex-1 bg-transparent px-2 py-1 outline-none placeholder:text-slate-600 font-bold resize-none overflow-y-auto max-h-32 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden'
           onKeyDown={(e) => {
             if(e.key === "Enter" && !e.shiftKey && !isInvalid) {
@@ -112,7 +138,7 @@ export default function Home (){
             ${isInvalid? 'border-slate-400 bg-slate-400' : 'border-indigo-500 bg-indigo-500  hover:bg-indigo-400'}
           `}
         >
-          {loading ? "..." : "Ask"}
+          {loading ? "..." : (lang === "en"? "Ask": "質問")}
         </button>
       </div>
     </div>
