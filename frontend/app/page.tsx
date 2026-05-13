@@ -2,6 +2,8 @@
 import {useState, useRef, useEffect} from 'react';
 import ReactMarkdown from 'react-markdown';
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000";
+
 interface ChatMessage{
   role: string;
   content: string;
@@ -40,7 +42,7 @@ export default function Home (){
     setLoading(true)
 
     try{
-      const res = await fetch(`https://ai-bot-5oom.onrender.com/ask?question=${encodeURIComponent(currentText)}&lang=${lang}`);
+      const res = await fetch(`${API_BASE_URL}/ask?question=${encodeURIComponent(currentText)}&lang=${lang}`);
       const data = await res.json();
 
       const aiMessage: ChatMessage = {role: "ai", content: data.answer}
@@ -63,6 +65,7 @@ export default function Home (){
       }
 
     }catch(e){
+      console.error("Frontend request error:", e);
       const errorMessage = lang ==='en'? "Sorry, something went wrong. I couldn't contact with Backend" : "すみません、接続に失敗しました。";
       setChat((prev)=>[...prev, {role: "ai", content:errorMessage}])
     }finally{
