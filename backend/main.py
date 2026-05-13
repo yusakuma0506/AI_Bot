@@ -11,7 +11,12 @@ BASE_DIR = Path(__file__).resolve().parent
 
 load_dotenv(BASE_DIR / ".env", override=True)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-client = genai.Client(api_key=GEMINI_API_KEY)
+
+
+def get_gemini_client():
+    if not GEMINI_API_KEY:
+        raise RuntimeError("GEMINI_API_KEY is not configured")
+    return genai.Client(api_key=GEMINI_API_KEY)
 
 app = FastAPI()
 
@@ -38,6 +43,7 @@ async def ask(question:str, lang: str):
             about_me = f.read()
             
         lang_instruction= "Please answer in Japanese" if lang == 'jp' else "Please answer in English"
+        client = get_gemini_client()
         response = client.models.generate_content(
             model="gemini-2.5-flash",
             contents=question,
