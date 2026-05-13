@@ -1,97 +1,574 @@
-1. OFFICIAL IDENTIFIERS & CONTACTS
-Full Name: Yu Sakuma (佐久間 優)
-Katakana: サクマ ユウ
-Date of Birth: May 6, 2004 (Age: 21)
-Gender: Male
-Current Residency (Malaysia)
-Nationality(Japan)
-Primary Email: yu.sakuma0506@gmail.com
-Phone Numbers: 017-658-6463 (MY)
-GitHub: https://github.com/yusakuma0506
+# Yu Sakuma (佐久間優) Complete Profile Source of Truth
+- This document is designed as a single source of truth for understanding Yu Sakuma as a person, software engineering candidate, product-minded builder, AI user, and future technical leader.
+- The goal is that anyone reading this file can answer questions about his background, skills, projects, values, interview direction, strengths, weaknesses, and future goals.
+- The information merges the uploaded resume, self-analysis files, interview-answer files, 1-on-1 automation project summary, Green Software research document, personal profile text, and the additional AI-use and hackathon information provided by Yu.
+- The core message is: Yu is a product-centric software engineering student who wants to become strong as a builder first, understand requirements, implementation, and operations, and eventually lead product value from problem definition to sustainable execution.
 
-2. Professional Identity & Vision
-The "Product-Centric" Engineer:
-Aims to be an engineer who manages the entire product lifecycle—problem definition, requirement gathering, and sustainable execution. He is not just a "coder" but a product builder who takes ownership of the bridge between user needs and technical implementation.
+# One-Sentence Identity
+- Yu Sakuma (佐久間優) is a Japanese software engineering student based in Malaysia who builds full-stack and automation systems, uses AI as a development accelerator, and aims to become a product-centric engineer who can connect user problems, technical design, implementation, and sustainable long-term value.
 
-The "Bridge" Philosophy:
-Strongly believes that the most critical part of engineering is translating human/business requirements into logical systems. This was solidified during his internship, where he learned the art of Requirement Definition.
+# Core Interview Axis
+- Yu should consistently communicate this axis: he wants to become strong on the building side first, understand technical constraints, implementation, and operations, and then grow into an engineer who can improve the overall value of a product.
+- His strongest interview foundation is: high goals, deep research, decomposition, continuous improvement, and execution until value is delivered.
+- His strongest proof is the Sora Inc. 1-on-1 automation project, where he reduced a monthly manual workflow from about 3 hours to about 30 minutes.
+- His future image is a senior engineer or tech lead who can contribute from requirement understanding to design, implementation, operation, and continuous improvement.
 
-Green Software Commitment:
-An active researcher of Green Software Engineering (SCI standards). He treats computational efficiency as a primary metric, aiming to build software that is both high-performing and environmentally sustainable.
+# Official Identity and Contact Information
+- Full name: Yu Sakuma (佐久間優).
+- Date of birth: May 6, 2004.
+- Age in the uploaded profile: 22.
+- Gender: Male.
+- Nationality: Japanese.
+- Current residence: Malaysia, with Kuala Lumpur listed on the resume.
+- Current career target: software engineering internship, especially in Canada.
+- Relocation status: open to relocate to Canada.
+- Canada Working Holiday Visa: approved and available from July 2026.
+- Primary personal email from profile: yu.sakuma0506@gmail.com.
+- Work email from resume: yu0506.forwork@gmail.com.
+- Malaysia phone number from profile: 017-658-6463.
+- GitHub: https://github.com/yusakuma0506.
+- LinkedIn from resume: https://linkedin.com/in/yu-sakuma.
+- Public-use note: for public sharing, phone number and date of birth can be removed, but for this internal source-of-truth version they are included because they appeared in the provided profile materials.
 
-3. Professional Experience (Internship)
-Workflow Automation Project (Lead Solo Engineer)
-Role & Responsibility:
-Acted as a solo developer and internal consultant during his internship. He was responsible for the end-to-end delivery of automation tools for other departments.
+# Current Positioning
+- Yu is currently a software engineering student with hands-on experience in automation, APIs, AWS Lambda, full-stack web development, and product-oriented problem solving.
+- He is not trying to present himself only as a coder; his stronger positioning is a builder who can identify problems, define requirements, choose practical technologies, build usable systems, and explain them to non-engineers.
+- He is most credible when he connects technical work to measurable value, such as time reduction, operational reliability, usability, cost efficiency, and long-term maintainability.
+- He should avoid sounding like he wants to do everything at once. His clearest path is: software engineer first, product and upper-stream responsibility later.
 
-Consultative Approach:
-Instead of waiting for tasks, he proactively interviewed non-technical teams to identify operational bottlenecks and manual friction points.
+# Education and Global Background
+- University: Asia Pacific University in Malaysia.
+- Degree: Bachelor of Science in Software Engineering.
+- Expected graduation: September 2027.
+- GPA from resume: 3.3 / 4.0.
+- Academic environment: multicultural and English-based, with frequent group projects and English communication.
+- Current academic stage from the profile file: second-year software engineering student.
+- High school: Tokyo Metropolitan Higashikurume Sogo High School(東京都立東久留米総合高校), graduated in March 2023.
+- Philippines: completed a 3-month language study experience around March 2023.
+- APU Foundation Course: entered in September 2023.
+- APU degree enrollment: started in September 2024.
+- Academic character: practical learner who uses classes, projects, and personal development to turn knowledge into output.
 
-Non-IT Communication Mastery:
-Since he was the only engineer, he mastered the skill of explaining technical constraints and system logic using plain language (no IT jargon) to reach consensus with stakeholders. This experience taught him the core of "consulting-led requirement definition."
+# Language and Global Communication
+- Native language: Japanese.
+- English level: intermediate, with practical experience in English-based group assignments and discussions.
+- Yu can handle group work communication, role assignment, direction alignment, and problem discussion in English.
+- He is still improving advanced technical discussion and nuanced professional explanation in English.
+- His English-learning story is important: he started from very low English scores in high school but researched learning methods, rebuilt his study strategy, and eventually reached top-of-grade performance.
+- The key lesson from his English growth is that he improves by setting a goal, researching methods, decomposing tasks, building routines, outputting actively, and revising the method when needed.
+- In English presentations, he learned that memorizing full scripts can fail. He now focuses on understanding the message and paraphrasing it in his own words.
 
-Technical Output:
-Integrated Notion API, Slack API, Python, and AWS to automate real-world business workflows, significantly reducing manual work for the company.
+# Career Objective
+- Short-term objective: obtain a software engineering internship where he can contribute to real systems, learn from stronger engineers, and test whether his skills work in a real development environment.
+- Medium-term objective: become an engineer who can independently handle design, implementation, testing, deployment, and improvement.
+- Long-term objective: become a senior engineer or tech lead who can connect requirement understanding, architecture, implementation, operation, and product value.
+- International goal: work in global environments such as Canada, the United States, or other international engineering teams, not because he rejects Japan, but because he wants to grow through multicultural collaboration and broader product perspectives.
+- Role priority: software engineer first; product management, IT consulting, solution engineering, or technical leadership can come later after he has strong building experience.
 
-4. Technical Ecosystem & Projects
-Project: "Another Me" (Interactive AI Interface)
-GitHub Repository: https://github.com/yusakuma0506/AI_Bot
+# Professional Identity
+- Product-Centric Engineer: Yu wants to understand the whole product lifecycle, not only coding tasks.
+- Bridge Engineer: Yu values translating human and business requirements into logical systems.
+- Practical Builder: Yu believes that ideas only become valuable when they are implemented, tested, and delivered to users or operations.
+- Sustainable Developer: Yu is interested in efficiency, cloud cost, resource usage, and Green Software Engineering.
+- AI-Enabled Engineer: Yu uses AI to accelerate research, design, implementation, review, and comparison, but he does not outsource final judgment to AI.
 
-Stack: Next.js 16+ (App Router), TypeScript, Tailwind CSS, FastAPI (Backend), Vercel, Render.
+# Core Values
+- Value must be delivered, not only imagined.
+- Engineering is not only writing code; it is solving real problems in a maintainable and usable way.
+- Good requirements come from understanding the user, the operation, and the technical constraints together.
+- Good code should be readable, maintainable, extensible, and efficient.
+- Development speed matters in early validation, but minimum maintainability and future extensibility must not be ignored.
+- Sustainability is not only an environmental ideal; it also connects to cloud cost, performance, and long-term software quality.
+- AI is a tool that increases speed, but human engineers must own the judgment, risk assessment, quality, and responsibility.
 
-Key Innovations:
+# Main Strengths
+- Decomposition: Yu breaks large or unclear goals into smaller parts and handles them step by step.
+- Research ability: Yu investigates documentation, examples, and background information until he understands enough to move forward.
+- Execution: Yu prefers to build and test rather than only think abstractly.
+- Communication with non-engineers: Yu can explain technical systems through business operations and user flow instead of jargon.
+- Ownership: Yu takes responsibility for problems he notices, especially recurring manual work that can be automated.
+- Product thinking: Yu cares about who uses the system, what problem is solved, and what value is delivered.
+- Growth mindset: Yu uses failure and weakness as input for new routines and better processes.
+- Global adaptability: Yu has studied in multiple countries and works in multicultural English environments.
 
-Intelligent TTS Switcher: Custom regex-based logic that detects the language of the AI response and switches between Japanese and English voice engines in real-time.
+# Main Weaknesses and Improvement Strategy
+- Yu's main weakness is that when he has many tasks at the same time, he sometimes tries to complete all of them at a high standard, which can weaken prioritization.
+- He has learned that effort alone is not enough; he needs a system for deciding what matters most.
+- His current improvement method is to divide tasks into must-have, important, and nice-to-have parts.
+- He first builds the minimum complete version, then improves the highest-impact parts.
+- When deadlines or expectations become unclear, he should communicate early instead of silently pushing alone.
+- He should present this weakness positively: he cares about quality, but he is learning to connect quality with priority, deadline, and team value.
 
-UX Optimization: Implemented seamless auto-scroll tracking using useRef and useEffect to ensure the latest messages are always in view without user intervention.
+# Technical Skills Overview
+- Languages: Python, JavaScript, TypeScript, Java, C, C++, Ruby, PHP, and low-level assembly exposure through academic work.
+- Frontend: React.js, Next.js, HTML, CSS, Tailwind CSS, UI implementation, responsive web design, and user-flow thinking.
+- Backend: Node.js, Express.js, FastAPI, Python API integration, Java basics, and server-side workflow logic.
+- Databases: PostgreSQL, MySQL, Supabase, Prisma, and Notion databases through API integration.
+- Cloud and serverless: AWS Lambda, EventBridge Scheduler, AWS SAM planning, CloudWatch Logs, SSM Parameter Store planning, and serverless workflow design.
+- DevOps and tools: GitHub, GitHub Actions planning, Docker, Dev Containers, Vercel, Render, and CI/CD learning.
+- APIs: Notion API, Slack API, OAuth, Stripe, and REST API design.
+- AI tools: ChatGPT and Codex for requirement clarification, design comparison, implementation planning, code review assistance, debugging, and documentation support.
+- Algorithms: sliding window, hash maps, binary search, BFS/DFS, grid search, backtracking, heaps, greedy methods, and basic dynamic programming practice.
+- Engineering focus areas: full-stack SaaS development, automation, requirement definition, Green Software Engineering, product usability, and AI-assisted development.
 
-Reliability: Integrated UptimeRobot to solve Render's cold-start latency issues, ensuring the app is always "live" and responsive.
+# Certifications and Achievements
+- Basic Information Technology Engineer qualification in Japan.
+- CCNA certification.
+- Meta React Basics certificate, listed as February 2026 in the profile file.
+- Meta Advanced React certificate, listed as March 2026 in the profile file.
+- CTF experience, including a defense-related CTF where Yu has described a top-about-15% result.
+- TOEIC score previously reported as around 635.
+- Hackathon achievement: team Idea Award and individual Design Award for UniShare.
 
-Project: "Jenga Architect" (System Design Focus)
-Concept: A specific architectural approach designed to bridge the gap between customer requirements and high-efficiency database logic.
-Status: In-progress development, focusing on the structural integrity of interactions before moving to full implementation.
+# Work Experience: Sora Inc.
+- Role: Software Engineering Intern at Sora Inc.
+- Period from resume: August 2025 to present.
+- Main contribution: designed and developed automation systems using AWS, Python, Notion API, and Slack API.
+- Main measurable result: reduced monthly manual 1-on-1 matching and Slack posting work from about 3 hours to about 20 minutes, which is about an 89% efficiency improvement.
+- Working style: not only implementation, but also requirement gathering, workflow understanding, stakeholder communication, and architecture design.
+- Special environment: Yu was effectively the solo engineer for the automation project, so he had to handle requirement definition, system design, implementation, explanation, and future operation planning.
+- PM-like experience: Yu has been involved in feature planning, task breakdown, member assignment, schedule management, and cross-functional communication in web app/project contexts.
+- Most important lesson: correct automation requires understanding the actual business workflow, not only writing scripts.
 
+# Project: 1-on-1 Automation System at Sora Inc.
+- Project type: individual internship project, internal business improvement, automation system, requirement definition, AWS automation, Notion and Slack integration.
+- Stakeholders: internal promotion team, interns, mentors, and Yu as the developer.
+- Problem: the internal team manually checked Notion data, confirmed monthly 1-on-1 pairs, and posted results to Slack every month.
+- Business pain: the work took about 3 hours per month, became repetitive, depended on human operation, and could grow as the number of interns increased.
+- Solution: build a system that reads Notion databases, checks target users, posts Slack messages, and prepares the next monthly matching table.
+- Core technologies: Python, AWS Lambda, EventBridge Scheduler, Notion API, Slack API, AWS SAM, GitHub Actions, Docker, Dev Container, SSM Parameter Store, and CloudWatch Logs.
+- Operational schedule: on the 22nd of each month, the system checks matching status and reports issues; on the 24th, it posts current matching results and prepares the next matching table.
+- Reason for two Lambda functions: the 22nd report should not update the Matching database, while the 24th function posts and shuffles data; separating them improves safety, clarity, and maintainability.
+- Lambda 1: 1on1-report-automation checks errors and warnings and posts a report to a report channel.
+- Lambda 2: 1on1-slack-automation posts the official 1-on-1 matching result and creates the next matching table.
+- Notion databases: InternManagement, MentorManagement, and Matching.
+- InternManagement fields: internName, slackIntern, department or departmentIntern, and internStatus.
+- MentorManagement fields: mentorName, slackMentor, department or departmentMentor, and mentorStatus.
+- Matching fields: matchingID, mentorName, and internName, with a mentor-to-intern relationship.
+- Slack mention rule: Slack mentions should use member IDs stored in slackIntern and slackMentor, such as <@Uxxxx>.
+- Preferred Slack output: one parent message per Matching row, not thread-based messages.
+- Status design: status was simplified to target and non-target to reduce operational confusion.
+- Matching rules: use only target mentors and target interns, avoid pairing people from the same department, avoid repeating previous mentor-intern pairs, do not revive non-target users automatically, and reduce imbalance among mentors when possible.
+- Error design: if no valid matching is possible, the system should make it clear which condition may be too strict.
+- Important design decision: people intentionally removed from Matching should not always be treated as system errors; some cases should become warnings or reports.
+- Communication challenge: Yu had to explain Lambda, APIs, scheduling, and database constraints to non-engineers without technical jargon.
+- Communication solution: he described the system in business language, such as “on the 22nd, the system checks Notion and reports missing target users to Slack.”
+- Automation philosophy: not everything should be automated blindly; the system should support human confirmation where business exceptions exist.
+- Future improvements: manage code in GitHub, unify the development environment with Docker and Dev Containers, build CI/CD with GitHub Actions, manage AWS resources with SAM, store secrets in SSM Parameter Store, monitor errors with CloudWatch Logs, and add pytest for status, department, and shuffle logic.
+- Resume version: designed and developed an automated 1-on-1 matching system using Notion API, AWS Lambda, EventBridge, and Slack API, reducing monthly manual work by about 89%.
+- Interview version: this project shows Yu’s ability to identify operational bottlenecks, define requirements with non-engineers, design a practical system, and deliver measurable business impact.
 
-5. Academic & Global Background
-Asia Pacific University (APU), Malaysia:
-Currently a 2nd-year Software Engineering student. Studying in a multicultural environment with English as the primary language of instruction.
+# Project: AI-Assisted Campus Shuttle Bus GPS Visualization App
+- Project status: in development or MVP/prototype stage.
+- Main goal: visualize the current location of a university shuttle bus using GPS so that students can check bus location and waiting status more easily.
+- User problem: students often do not know where the bus is, whether it has departed, or how long they may need to wait.
+- Student-side design: students can check the bus location without logging in, because lowering access friction is important for a campus utility.
+- Driver-side design: drivers use smartphones to send location data and departure/arrival status.
+- Admin-side design: admins can manage drivers, buses, routes, destinations, and operational information.
+- Possible stack from previous project context: Go backend, Next.js frontend, PostgreSQL, and Docker.
+- AI tools used: Codex and ChatGPT.
+- How AI was used: requirement organization, UI design comparison, API design comparison, implementation planning, code review assistance, debugging direction, and documentation support.
+- What Yu did not outsource to AI: final judgment on GPS update frequency, database design, login requirements, security, operational cost, and realistic MVP scope.
+- Important design judgment: student login was removed or avoided for the student view because the main value is quick access to bus location.
+- Important engineering judgment: GPS update frequency must balance real-time feeling, phone battery, server load, and cost.
+- Important security judgment: driver/admin functions require stronger control than student viewing.
+- Interview value: this project proves Yu can use AI to increase development speed while still owning system design, risk, and final decision-making.
+- Suggested pitch: I used Codex and ChatGPT as development accelerators for a campus shuttle GPS visualization app, but I treated AI output as hypotheses, not final answers. I reviewed requirements, data design, authentication needs, update frequency, security, and cost myself before deciding the system direction.
 
-High School: Tokyo Metropolitan Higashikurume So-go High School (Graduated Mar 2023).
+# Project: UniShare Hackathon App
+- Event: hackathon held at Sora Inc.
+- Theme: create something useful for school life.
+- Product name: UniShare.
+- Product concept: a class information sharing app for university students.
+- Main users: university students choosing or taking courses.
+- Extended stakeholders: junior students, classmates, and teachers.
+- Problem: students often struggle to choose elective classes because they cannot easily know the real difficulty, assignments, exam difficulty, materials, or what actually happens in the class.
+- Solution: allow students who have taken classes to share course materials, assignments, test difficulty, overall difficulty, class content, and practical comments.
+- Value for junior students: they can make better course-selection decisions and reduce uncertainty.
+- Value for classmates: they can share notes and deepen understanding together.
+- Value for teachers: they can understand where students struggle and use that insight for class improvement.
+- Yu’s role: leader and frontend developer.
+- Leadership contribution: Yu did not limit the target only to students at first; he framed the idea as a broader school-life problem that also includes teachers and learning improvement.
+- Frontend technologies: JavaScript, GSAP, HTML, and Tailwind CSS.
+- UI design approach: referenced familiar social-media app patterns to make the interface intuitive and easy to use.
+- Awards: the team received an Idea Award, and Yu personally received a Design Award.
+- Interview value: this project shows product thinking, leadership, frontend execution, user/stakeholder expansion, and design sensitivity.
+- Suggested pitch: In a Sora Inc. hackathon, I led a team that built UniShare, a course-information sharing app. I expanded the idea from only student convenience to school-life improvement for students and teachers, implemented the frontend with JavaScript, GSAP, HTML, and Tailwind, and won both a team Idea Award and an individual Design Award.
 
-Philippines: 3-month Language Study (Mar 2023).
+# Project: OOP Learning Web App / Jenga Architect
+- Product type: full-stack SaaS-style learning web app.
+- Purpose: help beginners learn Python OOP through gamified solo and multiplayer experiences.
+- Core learning topics: Python OOP, classes, objects, encapsulation, inheritance, polymorphism, design principles, and SOLID-style thinking.
+- Core value: beginners can experience OOP structure through play instead of only reading abstract explanations.
+- Solo mode: users progress through quizzes and learning stages.
+- Multiplayer mode: 3 to 6 users can play by scanning QR codes on Jenga blocks and answering questions.
+- Game concept: learning is connected to Jenga-style tension and interaction, making OOP more memorable.
+- Stack: Next.js, TypeScript, Supabase, Prisma, Stripe, OAuth, and Vercel.
+- Authentication: Google/GitHub OAuth.
+- Monetization: Stripe-based freemium model.
+- Admin function: dashboard for content management.
+- Live demo from resume: https://jenga-architect-app.vercel.app/.
+- GitHub from resume: https://github.com/yusakuma0506/Jenga-Architect.
+- Product judgment: Yu intentionally avoids adding too many advanced dashboards, excessive social features, or overly detailed customization at the beginning because the core value is beginner-friendly OOP learning.
+- Monetization reasoning: Yu thinks monetization is not only about revenue; it tests whether the product can continue delivering value sustainably.
+- Interview value: this project shows full-stack development, user-value thinking, gamification, authentication/payment integration, and product scope control.
 
-APU Foundation: Entered Asia Pacific University Foundation Course, Malaysia (Sept 2023).
+# Project: Another Me Interactive AI Interface
+- Product type: interactive AI interface or AI bot project.
+- Repository: https://github.com/yusakuma0506/AI_Bot.
+- Stack from profile: Next.js 16+ with App Router, TypeScript, Tailwind CSS, FastAPI backend, Vercel, and Render.
+- Key feature: intelligent TTS switcher.
+- TTS switcher design: custom regex-based logic detects whether the AI response is Japanese or English and switches voice engines in real time.
+- UX optimization: auto-scroll tracking using useRef and useEffect so the newest messages stay visible.
+- Reliability improvement: UptimeRobot was used to reduce Render cold-start latency and keep the app responsive.
+- Related AI project context: Yu has also worked on an AI interview-practice bot using a beginner-level RAG approach over text files.
+- Interview value: this project shows AI product experimentation, frontend UX polish, backend integration, reliability awareness, and practical deployment problem solving.
 
-APU Degree: Enrolled in B.S. in Software Engineering (Sept 2024).
+# Research Theme: EcoTrace Green Software / Carbon-Aware SaaS
+- Research title: A Carbon-Aware SaaS Framework for Real-Time Software Carbon Intensity Auditing by Automatic Check.
+- Proposed system name: EcoTrace.
+- Research area: Green Software Engineering, Software Carbon Intensity, DevOps, CI/CD, cloud-native SaaS, sustainable SDLC, and carbon-aware automation.
+- Core problem: carbon blindness in software development, meaning developers can see cost and performance but usually cannot see function-level or code-level carbon impact.
+- Main argument: sustainability should become a technical requirement in the software development lifecycle, similar to security, functionality, and performance.
+- Proposed solution: a cloud-native SaaS system that measures, scores, and reduces Software Carbon Intensity in real time during CI/CD.
+- Carbon Gate concept: GitHub Actions can block or warn about inefficient code before deployment if the SCI score exceeds a carbon budget.
+- Green Blueprint concept: developers receive actionable suggestions, not vague sustainability advice.
+- Architecture: Rust-based analytical engine for high-performance energy/carbon analysis, Go-based API gateway for scalable audit requests, and TypeScript/Next.js dashboard for visualization.
+- Formula base: Software Carbon Intensity uses energy consumed by software, carbon intensity of electricity, embodied hardware carbon, and functional units.
+- Business value: reducing wasteful computation can reduce both carbon emissions and cloud operational expenditure.
+- Engineering value: EcoTrace shifts sustainability from retrospective corporate reports to real-time developer feedback.
+- Interview value: this research supports Yu’s identity as an engineer who thinks beyond features and also considers cost, efficiency, sustainability, and future compliance.
 
-Argentina: 2-month Short-term Intensive Study (July 2025).
+# Research Interest: AI, IoT, SDN, and Cybersecurity
+- Yu has also worked around AI-driven attacks and defenses in IoT and Software-Defined Networking contexts.
+- The research interest includes AI-enabled attacks, AI-based defenses such as IDS and anomaly detection, adversarial weaknesses, and trustworthy defense frameworks.
+- This connects with Yu’s broader interest in cybersecurity, infrastructure, and the responsible use of AI.
+- This topic should be used as a supporting interest, while Green Software and product-centric engineering should remain the main career narrative unless the target company is security-focused.
 
-Expected Graduation: September 2027.
+# AI Usage Philosophy
+- Yu does not present AI as a replacement for engineering responsibility.
+- Yu uses AI to accelerate requirement clarification, design comparison, coding support, debugging, review, and explanation.
+- Yu treats AI output as a draft or hypothesis that must be checked against requirements, security, cost, maintainability, and operational reality.
+- In the campus shuttle project, Yu specifically checked GPS update frequency, database design, authentication necessity, security, and operational cost himself.
+- In AI-era interviews, Yu should say that the value of engineers shifts from only writing code to deciding what to build, what risks exist, how to design safely, and how to verify quality.
+- Best answer: AI can write code, but it cannot fully own context, responsibility, stakeholder alignment, system trade-offs, or final product quality.
 
-6. Behavioral Traits (The "Pursuit" Engine)
-Academic Grit (English Mastery):
-Started high school with failing grades (20s) in English. Through self-directed research into "learning methodologies" rather than just rote memorization, he optimized his study strategy to eventually rank #1 in the grade and secure his path to a global university.
+# Product Thinking
+- Yu defines user value as helping users achieve their real goal with less confusion, less stress, and a reason to keep using the product.
+- He believes that more features do not automatically mean more value.
+- He cares about first-time user experience because small friction can cause users to leave before they feel value.
+- He often thinks in terms of core value first, then adds surrounding features only after validating need.
+- In app critique questions, Yu should focus on onboarding friction, unclear next actions, too many settings, too many terms, or slow time-to-value.
+- In improvement proposals, Yu should suggest small measurable changes, such as reducing input fields, simplifying first actions, adding guided feedback, or measuring completion rate.
 
-Physical Discipline:
-Maintained a consistent fitness regime (5+ times/week) for over 2 years. He applies an engineering mindset to his body, researching anatomy and nutrition to plan and execute specific physical goals.
+# Technical Decision-Making
+- Yu’s technology selection criteria are: fit to the problem, development speed, deployment simplicity, maintainability, scalability, operational cost, and future extension.
+- For early product stages, he prioritizes speed of validation, but still avoids design choices that create serious future debt.
+- He chose Next.js in projects because it balances React knowledge, fast development, deployment with Vercel, and full-stack web app productivity.
+- He is interested in Go and Rust because they can improve performance, cost efficiency, and sustainability compared with heavier runtime choices in some contexts.
+- He should avoid saying “I chose it because it is popular.” The stronger answer is “I chose it because it matched the product constraints and allowed faster delivery with acceptable maintainability.”
 
-Deep Problem Solving:
-Refuses surface-level "quick fixes." When encountering environment misconfigurations (e.g., Prisma errors) or complex API logic flaws, he deep-dives into the documentation and source logic until a robust, scalable solution is found.
+# Definition of Good Code
+- Good code is not only code that works.
+- Good code should be readable, maintainable, extensible, and testable.
+- Good code should have clear naming, separated responsibilities, and avoid unnecessary complexity.
+- Good code should be efficient enough to avoid wasting computation, cloud cost, and energy.
+- For Yu, good code connects engineering quality with user value, operational stability, and sustainability.
 
-7. TECHNICAL SKILLS & CERTIFICATIONS
-Frontend: Next.js, React, TypeScript, Tailwind CSS.
+# Why Software Engineer First, Not IT Consultant First
+- Yu is interested in requirement definition and problem solving, but he believes the quality of upper-stream work depends on real implementation experience.
+- He wants to understand technical constraints, design trade-offs, testing, deployment, and operations from the builder side first.
+- He believes that without building experience, proposals can become unrealistic or hard to operate.
+- He does not reject IT consulting; he wants to build a stronger engineering foundation before expanding into consulting-like or PM-like responsibilities.
+- Strong answer: I want to become an engineer who can make realistic and valuable proposals because I understand how systems are actually built and operated.
 
-Backend: Java, Python, Ruby, C++, PHP, PostgreSQL, Prisma.
+# Why Product-Centric Engineer, Not Only Coder
+- Yu sees coding as a means to deliver value, not the final purpose.
+- He wants to understand the connection between user problems, requirements, architecture, implementation, and operation.
+- He wants to build software that is usable, maintainable, scalable, and valuable over time.
+- He should emphasize that he is currently engineer-first, not PM-first, but wants to keep product value in mind while writing code.
 
-Infrastructure: AWS Lambda (Serverless), Vercel, Render.
+# 5-Year and 10-Year Career Vision
+- In the next few years, Yu wants to build a strong foundation as a software engineer who can design, implement, test, deploy, and improve features independently.
+- In the medium term, he wants to broaden from single implementation tasks to system design, user experience, operation, and product improvement.
+- In 10 years, he wants to become a senior engineer or tech lead who can contribute end-to-end from requirement understanding to design, implementation, and continuous improvement.
+- He also wants to bring sustainability, cost efficiency, and global product thinking into engineering decisions.
 
-Certs: Meta: React Basics (Feb 2026) / Meta: React Advanced (Mar 2026).
+# Company Selection Criteria
+- Yu values an environment where interns or young engineers can take ownership and contribute to real product or business improvement.
+- He values feedback from stronger engineers and practical learning density.
+- He does not choose only by company size or brand.
+- He is attracted to companies where the connection between engineering work and user/business impact is visible.
+- He should say he wants an environment where he can contribute while learning, not only an environment where he can be taught.
 
-Logic: Expert in React Hooks (useMemo, useContext) and Algorithmic Thinking (Sliding Window, Hash Maps).
+# Behavioral Story: English Growth
+- Initial situation: Yu was not strong in English at the beginning of high school and experienced very low scores.
+- Action: he did not simply memorize harder; he researched learning methods, changed strategy, broke down goals, and increased output.
+- Result: he improved enough to rank at the top level in his grade and later study in international environments.
+- Lesson: his strength is not natural talent but building a repeatable improvement system.
+- Interview link: this same method appears in coding test preparation, personal development, fitness, and unfamiliar technology learning.
 
-8. Strategic Goals & Technical Interests
-Interest in Green AI Inc. -> if they ask about Green AI Inc (company):
-Attracted to the "speed" of a 1st-year startup that has already earned recognition from the Ministry of the Environment. He seeks to leverage his global perspective and "bridge-building" skills to scale GX (Green Transformation) solutions.
+# Behavioral Story: Overseas Study Negotiation
+- Situation: Yu wanted to study abroad, but his parents were initially against it.
+- Action: he did not push emotionally; he asked what they were worried about, clarified their conditions, collected information, and searched for a point of agreement.
+- Result: he eventually gained agreement and realized overseas study.
+- Lesson: his pursuit is not stubbornness; it is problem decomposition, empathy for the other side, information gathering, and consensus building.
+- Interview link: this supports his ability to communicate with stakeholders and handle disagreement constructively.
 
-Future Path:
-Moving towards Product Management (PdM) or Technical Leadership, where he can use his combined skills in coding, requirement definition, and sustainable design.
+# Behavioral Story: Fitness and Discipline
+- Yu has maintained a consistent fitness routine about five times per week for more than two years.
+- He approaches training with an engineering mindset by researching anatomy, nutrition, routines, and measurable progress.
+- The transferable skill is long-term consistency, measurement, revision, and patience when results are slow.
+- Interview link: this shows that his decomposition-and-routine method is not limited to school or coding.
+
+# Behavioral Story: Swimming and Unfinished Experience
+- Yu has described an earlier swimming experience where he did not finish in a fully satisfying way, partly because of environment and relationship issues.
+- He does not use this as an excuse; he treats it as a lesson about not leaving things unfinished.
+- The current improvement is that he takes responsibility for projects he starts and tries to bring them to a concrete form.
+- Interview link: this is useful for honest failure questions because it shows self-awareness and behavior change.
+
+# Behavioral Story: Team Role
+- Yu often takes a role that organizes unclear situations and helps the team move forward.
+- He likes to clarify what is decided, what is undecided, who owns what, and what should be checked next.
+- He has learned that initial role assignment is not enough; teams need repeated progress checks and final alignment.
+- Interview link: his leadership style is not only “pulling strongly” but also creating structure so people can move.
+
+# Behavioral Story: Multicultural Teams
+- In English-based and multicultural university environments, Yu learned that people do not always share the same assumptions.
+- He tries to check background, expectations, and definitions instead of assuming everyone thinks like him.
+- This helps him in requirement definition and product thinking because different users may have different needs.
+- Interview link: he can contribute to global teams by aligning assumptions and turning differences into better product understanding.
+
+# Self-Introduction: 30 Seconds
+- My name is Yu Sakuma, a software engineering student at Asia Pacific University in Malaysia. I focus on full-stack development, automation, and product-oriented problem solving. In my internship at Sora Inc., I designed a 1-on-1 matching and Slack notification automation system using AWS Lambda, Notion API, EventBridge, and Slack API, reducing monthly manual work from about 3 hours to 20 minutes. I want to become a software engineer who is strong in building real systems first, and in the future, can contribute from requirement understanding to product improvement.
+
+# Self-Introduction: 60 Seconds
+- My name is Yu Sakuma, a Japanese software engineering student studying at Asia Pacific University in Malaysia. My strength is setting a goal, researching what is needed, decomposing the problem, and continuously improving until I can deliver value. At Sora Inc., I worked as a software engineering intern and developed an automation system for monthly 1-on-1 matching and Slack posting. I used Python, AWS Lambda, EventBridge, Notion API, and Slack API, and reduced a recurring monthly task from about 3 hours to about 20 minutes. I also build full-stack projects such as an OOP learning SaaS-style web app using Next.js, TypeScript, Supabase, Prisma, Stripe, and OAuth. My career goal is to become a product-centric engineer who can understand users and operations, design realistic systems, implement them, and improve them sustainably.
+
+# Self-Introduction: 90 Seconds
+- My name is Yu Sakuma, a software engineering student at Asia Pacific University in Malaysia. I am originally from Japan and study in a multicultural English-speaking environment. My main interest is software engineering that connects user problems, system design, implementation, and long-term product value. In my internship at Sora Inc., I worked on a 1-on-1 automation project as a solo developer. The original workflow required the internal team to manually check Notion data, create mentor-intern matching, and post to Slack every month. I interviewed non-engineering stakeholders, clarified the workflow, and built a system using Python, AWS Lambda, EventBridge, Notion API, and Slack API. As a result, monthly work was reduced from about 3 hours to 20 minutes. Through this experience, I learned that good engineering starts from understanding the actual operation, not only writing code. I also build full-stack products such as a Python OOP learning app with Next.js, TypeScript, Supabase, Prisma, Stripe, and OAuth. In addition, I am interested in AI-assisted development and Green Software Engineering. My goal is to first become strong as a software engineer, then grow into a senior engineer or tech lead who can create product value from requirements to implementation and improvement.
+
+# Resume Bullet Bank: Sora Inc. Automation
+- Designed and developed an automated 1-on-1 matching and Slack notification system using Python, AWS Lambda, EventBridge, Notion API, and Slack API.
+- Reduced recurring monthly manual work from about 3 hours to about 20 minutes, achieving approximately 83% efficiency improvement.
+- Gathered requirements from non-engineering stakeholders and translated operational workflows into system logic.
+- Designed a monthly workflow separating pre-check reporting and official posting/shuffle execution for safer operation.
+- Implemented matching rules to handle target status, department constraints, previous pair avoidance, and warning/report distinction.
+- Planned future CI/CD and infrastructure management using GitHub Actions, AWS SAM, Docker, Dev Containers, SSM Parameter Store, and CloudWatch Logs.
+
+# Resume Bullet Bank: Jenga Architect
+- Built a full-stack SaaS-style learning platform for Python OOP using Next.js, TypeScript, Supabase, Prisma, Stripe, and OAuth.
+- Designed gamified solo and multiplayer learning experiences for 3 to 6 users using Jenga-style interaction and QR-based gameplay.
+- Implemented Google/GitHub OAuth and Stripe-based freemium monetization flow.
+- Developed an admin dashboard for content management and learning material updates.
+- Focused product scope on beginner-friendly OOP learning instead of adding excessive secondary features.
+
+# Resume Bullet Bank: Campus Shuttle App
+- Developed a prototype campus shuttle GPS visualization app to help students check current bus location without login.
+- Designed driver-side smartphone flow for sending GPS location and departure/arrival status.
+- Used ChatGPT and Codex to accelerate requirement organization, API design, UI planning, implementation comparison, and code review.
+- Validated AI suggestions manually by checking GPS update frequency, authentication needs, database design, security, and operational cost.
+- Planned admin-side management for buses, drivers, routes, and operational analysis.
+
+# Resume Bullet Bank: UniShare Hackathon
+- Led a hackathon team to design and develop UniShare, a university course information sharing app.
+- Expanded the target from only students to a broader school-life problem involving junior students, classmates, and teachers.
+- Implemented frontend UI using JavaScript, GSAP, HTML, and Tailwind CSS with social-media-inspired interaction patterns.
+- Helped the team win the Idea Award and received an individual Design Award.
+
+# Interview Answer: Why Software Engineering
+- I want to become a software engineer because engineers can turn problems into working systems. I am interested not only in ideas but in delivering something that users or teams can actually use. In the future, I want to contribute to requirement definition and product decisions, but I believe that to do that well, I first need strong experience in design, implementation, testing, and operation. That is why I want to become strong on the building side first.
+
+# Interview Answer: Why Not IT Consulting First
+- I am interested in problem solving and requirement definition, so I do not reject consulting. However, I believe high-quality proposals require understanding what is realistic to build and operate. If I move to upper-stream work without implementation experience, my proposals may become too idealistic. Therefore, I want to first gain experience as a software engineer, understand technical constraints and operational reality, and later use that foundation to contribute to broader product or business decisions.
+
+# Interview Answer: Strength
+- My strength is the ability to set a high goal, research what is needed, decompose the problem, and continue improving until I can deliver value. This appears in my English learning, fitness, coding test preparation, personal projects, and internship automation project. For example, in my Sora Inc. internship, I learned unfamiliar technologies such as AWS Lambda, Notion API, and Slack API by breaking the system into smaller parts, and I delivered a workflow that reduced monthly manual work by about 83%.
+
+# Interview Answer: Weakness
+- My weakness is that when several tasks overlap, I sometimes try to complete all of them at a high standard, which can make prioritization weaker. I learned from university assignments that effort alone does not guarantee the best result. Now I first define the minimum completion line, divide tasks into must-have, important, and nice-to-have, and finish the whole structure before polishing details. I still care about quality, but I try to connect quality with priority and deadlines.
+
+# Interview Answer: Failure
+- One failure was when multiple university assignments overlapped and I tried to complete every part at a high standard from the beginning. As a result, I spent too much time on early details and did not leave enough time for later parts. I learned that working hard is not enough; I need to design how to produce results within limited time. Since then, I have used task breakdown, priority ranking, and minimum completion lines to manage work better.
+
+# Interview Answer: Team Conflict
+- I experienced a case where role assignments were not clearly checked after the initial division, so multiple members worked on the same part while other parts were left unclear. I learned that the first agreement is not enough. Now I try to clarify what is decided, what is not decided, who owns each part, and when we should check progress again. I believe frequent alignment prevents small misunderstandings from becoming large team problems.
+
+# Interview Answer: English Ability
+- I can handle everyday academic teamwork in English, including role assignment, direction alignment, discussion, and problem clarification. My university environment is English-based, so I use English regularly in group assignments. However, I am still improving advanced technical discussion and nuanced explanation. I see English not as a fixed weakness but as a skill I can continue improving through practice and real communication.
+
+# Interview Answer: Overseas Work Motivation
+- I want to work internationally not because I dislike Japan, but because I want to grow in environments with different cultures and assumptions. Studying abroad taught me that what feels obvious to me may not be obvious to others. I believe that working in global teams will help me build products with a broader perspective and communicate better with diverse users and stakeholders.
+
+# Interview Answer: Why Use AI in Development
+- I use AI because it helps me move faster in requirement organization, design comparison, coding support, debugging, and review. However, I do not use AI output as the final answer. In my campus shuttle bus project, AI helped with design and implementation ideas, but I personally checked GPS update frequency, database design, authentication needs, security, and operational cost. I think AI is valuable when the engineer owns the final judgment.
+
+# Interview Answer: Value in the AI Era
+- As AI automates more coding work, the engineer’s value shifts toward deciding what should be built, what risks exist, how to design safely, and how to verify quality. AI can generate code, but it cannot fully understand the business context, user pain, operational constraints, or final responsibility. I want to become an engineer who uses AI effectively while becoming stronger in requirement definition, design judgment, quality control, and maintainability.
+
+# Interview Answer: Green Software Motivation
+- My interest in Green Software started from a question: is software really unrelated to environmental impact? By researching cloud infrastructure and code execution, I learned that software also consumes energy and creates carbon impact through servers, data centers, and inefficient computation. I do not see sustainability as only an ideal; I see it as connected to performance, cloud cost, operational efficiency, and future software quality. That is why I am interested in Carbon Gates, SCI, and sustainable SDLC.
+
+# Interview Answer: User Value
+- I define user value as helping users achieve what they actually want with less confusion, less stress, and a reason to continue using the product. More features do not always mean more value. For example, in a beginner learning app, the most important thing is not a large dashboard but a smooth path to the first learning success. I try to focus on reducing friction and making users feel progress.
+
+# Interview Answer: Technical Challenge in 1-on-1 Automation
+- The hardest technical challenge was combining unfamiliar technologies into one working workflow. I had to use AWS Lambda, EventBridge, Notion API, Slack API, and Python logic together. I solved this by decomposing the system into smaller functions: reading Notion data, building matching logic, formatting Slack messages, and scheduling execution. By testing each part step by step, I could connect them into a working automation system.
+
+# Interview Answer: Requirement Definition Difficulty
+- The hardest part of requirement definition was translating convenient-sounding requests into something technically possible and operationally safe. With Notion and Slack integration, some requests depended on API limitations and data structure. I did not say yes to everything immediately. I divided requirements into must-have, nice-to-have, and needs-technical-check, then investigated feasibility before deciding. This taught me that good requirement definition requires correct handling of uncertainty.
+
+# Interview Answer: Non-Engineer Communication
+- When I communicate with non-engineers, I avoid starting with technical terms. Instead of saying “Lambda will run through EventBridge,” I explain what changes in their workflow: “on the 22nd, the system checks Notion and reports missing target users to Slack.” I also use concrete examples and ask whether the current workflow understanding is correct. This helps align expectations without forcing stakeholders to understand implementation details.
+
+# Interview Answer: Quantitative Impact
+- In my internship, I automated the monthly 1-on-1 matching and Slack posting workflow and reduced the time from about 3 hours to about 30 minutes per month. That is about an 83% efficiency improvement. I think the value is not only time reduction, but also reduced dependency on manual work, lower risk of repeated mistakes, and a more scalable workflow as the number of interns grows.
+
+# Interview Answer: Good Code
+- Good code is readable, maintainable, extensible, and efficient. It should not only work today but also be understandable to future developers or my future self. I care about clear names, separated responsibilities, and avoiding unnecessary complexity. Recently, I also consider resource efficiency and cloud cost as part of code quality because inefficient code can create operational and environmental waste.
+
+# Interview Answer: Speed vs Quality
+- It depends on the phase. In an early product phase, I prioritize speed because we need to validate whether users actually need the product. However, I do not ignore minimum maintainability because a very messy foundation can become expensive later. My approach is to build the minimum valuable version quickly, then improve performance and structure after value is clearer.
+
+# Interview Answer: Full-Stack Motivation
+- I am interested in full-stack development because I want to understand how value reaches the user from requirements to UI, backend, database, authentication, deployment, and operation. Even if I later specialize, having experience across layers helps me communicate better with other engineers and make more realistic product decisions.
+
+# Interview Answer: Why Next.js
+- I chose Next.js because it gave me a good balance of development speed, React-based learning, deployment simplicity with Vercel, and full-stack productivity. In personal projects, early speed and feedback are important, so I chose a tool that helped me build and test ideas quickly while still keeping a maintainable structure.
+
+# Interview Answer: Why Jenga Architect
+- I built Jenga Architect because beginners often struggle to move from basic Python syntax to OOP and design thinking. OOP can be abstract when learned only through books or videos, so I wanted to create a game-like experience where users can touch structure, answer quizzes, and feel progress. The core value is helping beginners cross the gap from understanding syntax to thinking in objects and design.
+
+# Interview Answer: Monetization Thinking
+- I thought about monetization because a product must be sustainable if it continues to deliver value. Monetization is not only about revenue; it forces me to ask what part of the product users truly value. For the OOP app, I considered what should remain free and what advanced value could justify payment, while keeping the beginner learning experience accessible.
+
+# Interview Answer: PM vs Engineer
+- At this stage, I am engineer-oriented. I first want to build strong technical foundations through design, implementation, testing, deployment, and operation. However, I do not want to ignore product value while coding. In the future, I want to be an engineer who also has PM-like awareness, so I can connect technical decisions with user and business value.
+
+# Case Answer Framework
+- Step 1: do not answer immediately; first organize the situation.
+- Step 2: set evaluation criteria such as urgency, impact, dependency, user impact, operational risk, cost, and feasibility.
+- Step 3: split items into groups instead of treating everything equally.
+- Step 4: move with a hypothesis when information is incomplete, but define what must be checked.
+- Step 5: communicate the decision and reasoning to stakeholders.
+- Step 6: review the result and improve the process.
+
+# Case Answer: 100 Tasks
+- I would not handle 100 tasks as equal. First, I would classify them by urgency, impact, dependency, and risk. I would identify fixed-deadline tasks, tasks blocking other people, tasks with direct user or business impact, and tasks that can be postponed or removed. Then I would create today, this week, later, and not-do categories. My priority is not to work hard on everything, but to focus on the most important result.
+
+# Case Answer: Everything Is Important
+- If everything is called important, I would first clarify what “important” means. Is it revenue impact, user satisfaction, risk reduction, deadline, or stakeholder expectation? After aligning the evaluation criteria, I would compare tasks again. In practice, everything cannot have exactly the same priority, so defining the meaning of importance is necessary before execution.
+
+# Case Answer: Deadline Tomorrow and Five Tasks Remain
+- I would not try to complete all five at the same quality level. First, I would define the minimum acceptable quality for each task, separate must-have from nice-to-have, and check dependencies and external impact. If risk remains, I would communicate early with the current status, reason, alternative plan, and what can be delivered by the deadline.
+
+# Case Answer: Ambiguous Requirements
+- I would not start building with vague requirements. I would divide them into must-have, nice-to-have, and needs-confirmation. Then I would ask concrete example-based questions, such as who uses it, when they use it, what happens in exception cases, and what must not happen. I believe requirement definition is not about pretending everything is clear; it is about correctly separating uncertainty.
+
+# Case Answer: Unrealistic Non-Engineer Request
+- I would not simply say “impossible.” First, I would ask what goal they are trying to achieve. Then I would offer options: what can be done now, what can be done with changed conditions, and what is difficult because of technical or operational constraints. I would explain through business impact rather than technical jargon.
+
+# Case Answer: App Improvement
+- I would choose an app where users face friction before reaching value, such as too many setup steps or unclear next actions. My improvement would be to reduce initial input, show only the next necessary step, and add feedback after the first small success. I would validate this through onboarding completion rate, time-to-first-value, retention, and user comments.
+
+# Case Answer: Speed vs Performance
+- I would decide based on user value and product phase. If performance issues are already causing user drop-off or operational cost, performance improvement becomes urgent. If the product is not validated yet, a new feature or MVP may matter more. I do not optimize for beauty alone; I optimize for delivered value, risk, and learning speed.
+
+# Case Answer: Production Incident
+- First, I would check impact and stop damage before deep root-cause analysis. I would identify who is affected, whether rollback is possible, and what temporary mitigation can reduce impact. Then I would communicate status, isolate the cause, restore service, and document prevention steps. In an incident, transparency and structured response matter more than hiding the mistake.
+
+# Case Answer: User Complaints but Metrics Look Fine
+- I would not ignore either side. I would check whether the complaints come from a specific user segment, device, flow, or edge case that aggregate metrics hide. Quantitative data and qualitative feedback should be used together. The goal is to align the resolution of the data with the actual user experience.
+
+# Deep-Dive Why Chain: Why Build First
+- First reason: building experience helps me understand technical constraints.
+- Deeper reason: realistic product decisions require knowing implementation and operation limits.
+- Deepest reason: I want to be someone who does not only suggest ideas, but delivers value that actually works for users and teams.
+
+# Deep-Dive How Chain: How to Handle Unknown Technology
+- First method: understand the whole system at a high level.
+- Second method: split it into smaller parts, such as data retrieval, logic, output, and scheduling.
+- Third method: test each part independently, then connect them.
+- Reusable pattern: overview, decomposition, small validation, integration, review, and improvement.
+
+# Deep-Dive Why Chain: Why Sustainability Matters
+- First reason: software also consumes energy through cloud infrastructure and computation.
+- Deeper reason: inefficient code increases both carbon emissions and cloud cost.
+- Deepest reason: future engineers should build not only fast products, but also efficient, responsible, and sustainable systems.
+
+# Deep-Dive Why Chain: Why AI Does Not Remove Engineers
+- First reason: AI can generate code, but it does not fully understand context.
+- Deeper reason: system requirements, security, maintainability, cost, and user impact require judgment.
+- Deepest reason: as AI increases speed, human responsibility for what is built becomes even more important.
+
+# Questions Yu Can Answer Using This Document
+- Tell me about yourself.
+- Why do you want to become a software engineer?
+- Why not IT consulting first?
+- What is your strongest project?
+- What quantitative impact have you created?
+- How did you use AWS, Notion API, and Slack API?
+- How did you communicate with non-engineers?
+- What is your biggest weakness?
+- What is your failure experience?
+- What is your team role?
+- What is your leadership experience?
+- How do you use AI in development?
+- What is your value in the AI era?
+- What does good code mean to you?
+- Why full-stack?
+- Why Next.js?
+- What is the core value of your OOP learning app?
+- What is your hackathon experience?
+- What is your Green Software research about?
+- What is your 10-year vision?
+- What kind of company do you want to join?
+- How would you handle 100 tasks?
+- How would you improve an app?
+- How do you handle ambiguous requirements?
+- What would you do during a production incident?
+
+# Best Personal Branding Words
+- Product-centric engineer.
+- Bridge engineer.
+- AI-enabled builder.
+- Sustainable software engineer.
+- Full-stack problem solver.
+- Requirement-aware software engineer.
+- Engineer who turns unclear problems into working systems.
+- Builder who connects user pain, technical design, and measurable value.
+
+# Words and Phrases Yu Should Use Often
+- I want to become strong on the building side first.
+- I translate business or user requirements into system logic.
+- I do not use AI output as the final answer; I use it as a draft and verify it myself.
+- I focus on value delivery, not only code completion.
+- I divide unclear problems into smaller parts and validate each part.
+- I try to explain technology through business flow when speaking with non-engineers.
+- I care about maintainability, operational cost, and sustainability.
+- I learned that automation must match the real workflow, not destroy it.
+- I want to make realistic decisions based on implementation and operation.
+
+# Words and Phrases Yu Should Avoid or Control
+- Avoid saying only “I want to grow” without explaining how he will contribute.
+- Avoid saying “I can do anything” because it weakens the software-engineer-first axis.
+- Avoid saying “I am interested in PM and consulting too” without saying he wants engineering foundation first.
+- Avoid presenting Green Software as only an ideal; connect it to cost, performance, and technical quality.
+- Avoid presenting AI as doing the work for him; always emphasize verification, judgment, and responsibility.
+- Avoid overexplaining every tool name to non-technical interviewers; connect tools to business value.
+
+# One-Minute Pitch for Software Engineering Internship
+- I am Yu Sakuma, a software engineering student at Asia Pacific University in Malaysia. My strongest experience is building an internal automation system during my Sora Inc. internship. I interviewed non-engineering stakeholders, clarified the monthly 1-on-1 matching workflow, and built a system with Python, AWS Lambda, EventBridge, Notion API, and Slack API. It reduced monthly work from about 3 hours to 30 minutes. I also build full-stack products with Next.js, TypeScript, Supabase, Prisma, Stripe, and OAuth. I want to join a software engineering internship where I can contribute to real systems, learn from practical feedback, and grow into an engineer who can deliver product value from requirements to implementation.
+
+# One-Minute Pitch for AI-Related Role
+- I use AI as a development accelerator, not as a replacement for engineering judgment. In my campus shuttle bus app, I used Codex and ChatGPT to organize requirements, compare UI and API designs, plan implementation, and support code review. However, I personally checked GPS update frequency, database design, authentication needs, security, and operational cost. My strength is using AI to move faster while still owning the final technical decision. I want to become an engineer who can combine AI productivity with requirement understanding, system design, and quality control.
+
+# One-Minute Pitch for Green Software or Sustainability Role
+- My interest in Green Software comes from the idea that software also has environmental and cost impact through computation and cloud infrastructure. In my EcoTrace research, I explored a carbon-aware SaaS framework that integrates Software Carbon Intensity checks into CI/CD through Carbon Gates. The idea is to give developers real-time feedback before inefficient code reaches production. I am interested in building software that is not only functional and fast, but also efficient, cost-aware, and sustainable.
+
+# Final Consolidated Narrative
+- Yu Sakuma (佐久間優) is best understood as a product-centric software engineering student who learns by building, improves by decomposition, and communicates by translating technical ideas into user or business value.
+- His strongest proof is not only that he knows several technologies, but that he used unfamiliar technologies in a real internship to reduce a recurring operational workload by about 83%.
+- His strongest future direction is software engineer first, then senior engineer or tech lead who can also handle product value, requirement definition, and sustainable design.
+- His strongest differentiator is the combination of practical automation, full-stack product development, AI-assisted development, non-engineer communication, global learning experience, and Green Software interest.
+- The most important way to present him is: he is not a person who only wants to write code; he is a builder who wants to understand problems deeply, create working systems, and deliver measurable, maintainable, and sustainable value.

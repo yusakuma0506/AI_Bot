@@ -1,12 +1,15 @@
 import os
-import google.generativeai as genai
+from pathlib import Path
+
+from google import genai
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+BASE_DIR = Path(__file__).resolve().parent
 
-load_dotenv(override =True)
-genai.configure(api_key = os.getenv("GEMINI_API_KEY"))
+load_dotenv(BASE_DIR / ".env", override=True)
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 app = FastAPI()
 
@@ -26,13 +29,15 @@ def health_check():
 @app.get("/ask")
 async def ask(question:str, lang: str):
     try:
-        with open('aboutMe.txt', 'r', encoding="utf-8") as f:
+        with open(BASE_DIR / 'aboutMe.txt', 'r', encoding="utf-8") as f:
             about_me = f.read()
             
         lang_instruction= "Please answer in Japanese" if lang == 'jp' else "Please answer in English"
-        model = genai.GenerativeModel(
-            'models/gemini-2.5-flash',
-            system_instruction= f""" 
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=question,
+            config=genai.types.GenerateContentConfig(
+                system_instruction=f""" 
                                 -you are Yu Sakuma 
                                  and in an interview for new job.
                                 -basically, you answer briefly
@@ -42,10 +47,11 @@ async def ask(question:str, lang: str):
                                 -if the answer will be long, or need to use bullet points,
                                  you have to make them look good with changin the line
                                 -please make important word **bold** """
+            ),
         )
-        response = model.generate_content(question)
         return{"answer": response.text}
     except Exception as e:
+        print("ERROR:", repr(e))
         if lang == "jp":
             err = "申し訳ありません。考えすぎて少し疲れました。少し休ませてください。(APIのfree枠上限に達しました)"
         else:
