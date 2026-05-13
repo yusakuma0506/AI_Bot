@@ -1,4 +1,5 @@
 import os
+import traceback
 from pathlib import Path
 
 from google import genai
@@ -9,7 +10,8 @@ from fastapi.middleware.cors import CORSMiddleware
 BASE_DIR = Path(__file__).resolve().parent
 
 load_dotenv(BASE_DIR / ".env", override=True)
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+client = genai.Client(api_key=GEMINI_API_KEY)
 
 app = FastAPI()
 
@@ -23,7 +25,10 @@ app.add_middleware(
 @app.get("/")
 @app.head("/")
 def health_check():
-    return {"status": "ok"}
+    return {
+        "status": "ok",
+        "gemini_api_key_configured": bool(GEMINI_API_KEY),
+    }
 
 
 @app.get("/ask")
@@ -51,7 +56,8 @@ async def ask(question:str, lang: str):
         )
         return{"answer": response.text}
     except Exception as e:
-        print("ERROR:", repr(e))
+        print("ERROR:", repr(e), flush=True)
+        traceback.print_exc()
         if lang == "jp":
             err = "申し訳ありません。考えすぎて少し疲れました。少し休ませてください。(APIのfree枠上限に達しました)"
         else:
