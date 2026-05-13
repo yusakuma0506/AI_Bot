@@ -2,7 +2,12 @@
 import {useState, useRef, useEffect} from 'react';
 import ReactMarkdown from 'react-markdown';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000";
+const API_BASE_URL = (
+  process.env.NEXT_PUBLIC_API_BASE_URL ??
+  (process.env.NODE_ENV === "production"
+    ? "https://ai-bot-5oom.onrender.com"
+    : "http://127.0.0.1:8000")
+).replace(/\/$/, "");
 
 interface ChatMessage{
   role: string;
@@ -42,7 +47,14 @@ export default function Home (){
     setLoading(true)
 
     try{
-      const res = await fetch(`${API_BASE_URL}/ask?question=${encodeURIComponent(currentText)}&lang=${lang}`);
+      const params = new URLSearchParams({
+        question: currentText,
+        lang,
+      });
+      const res = await fetch(`${API_BASE_URL}/ask?${params.toString()}`);
+      if (!res.ok) {
+        throw new Error(`Backend request failed: ${res.status}`);
+      }
       const data = await res.json();
 
       const aiMessage: ChatMessage = {role: "ai", content: data.answer}
